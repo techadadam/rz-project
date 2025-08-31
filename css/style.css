@@ -12,7 +12,8 @@
 }
 
 .logo {
-  height: 3.5rem;
+  height: 4.5rem;
+  /*width: 5rem;*/
 }
 
 /* ---- */
@@ -121,11 +122,11 @@
 /* ---------------- */
 /* sekcja featured */
 
-.section-featured {
+.section-nasi-producenci {
   padding: 4.8rem 0 3.2rem 0;
 }
 
-.heading-featured-in {
+.heading-nasi-producenci {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
@@ -172,7 +173,6 @@
 
 .step-img-box {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,25 +334,27 @@
 }
 
 /* ------------------------ */
-/* sekcja nasze-realizacje */
+/* sekcja o-nas */
 
-.section-nasze-realizacje {
+.section-o-nas {
   background-color: #191919;
   display: grid;
-  grid-template-columns: 55fr 45fr;
+  grid-template-columns: 60fr 40fr;
   align-items: center;
 }
 
-.nasze-realizacje-container {
+.left-container-o-nas {
   padding: 9.6rem;
 }
 
-.nasze-realizacje {
+/*
+.o-nas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
   column-gap: 8rem;
 }
+*/
 
 .review-img {
   width: 6.4rem;
@@ -360,35 +362,28 @@
   margin-bottom: 1.2rem;
 }
 
-.review-text {
+.text-o-nas {
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
 
-.review-name {
-  font-size: 1.6rem;
-  color: #6f6f6f;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
+.right-container-o-nas {
   padding: 1.6rem;
 }
 
-.gallery-photo {
+.photo-o-nas {
   overflow: hidden;
 }
 
-.gallery-photo img {
+.photo-o-nas img {
   display: block;
   width: 100%;
+  max-height: 700px;
   transition: all 0.4s;
 }
 
-.gallery-photo img:hover {
+.photo-o-nas img:hover {
   transform: scale(1.1);
 }
 

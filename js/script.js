@@ -1,4 +1,4 @@
-console.log("Hello delevopers!");
+console.log("Hi!");
 
 const myName = "AL";
 const h1 = document.querySelector(".hero-title");

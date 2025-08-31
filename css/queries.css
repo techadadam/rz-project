@@ -9,10 +9,6 @@
   .hero-title {
     font-size: 4.4rem;
   }
-
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /*----------------------*/
@@ -49,7 +45,7 @@
     gap: 4.8rem;
   }
 
-  .nasze-realizacje-container {
+  .left-container-o-nas {
     padding: 9.6rem 3.2rem;
   }
 }
@@ -89,12 +85,8 @@
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .section-nasze-realizacje {
+  .section-o-nas {
     grid-template-columns: 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(6, 1fr);
   }
 
   .cta {
@@ -248,13 +240,8 @@
     transform: translateY(2.4rem);
   }
 
-  .nasze-realizacje {
+  .o-nas {
     grid-template-columns: 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.2rem;
   }
 
   .cta {
