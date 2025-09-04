@@ -244,6 +244,22 @@
     grid-template-columns: 1fr;
   }
 
+  .o-nas-1st-cell {
+    grid-column: auto;
+  }
+
+  .o-nas-2nd-cell {
+    grid-column: auto;
+  }
+
+  .o-nas-3rd-cell {
+    grid-column: auto;
+  }
+  .o-nas-4th-cell {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   .cta {
     grid-template-columns: 1fr;
   }

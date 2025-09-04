@@ -339,22 +339,31 @@
 .section-o-nas {
   background-color: #191919;
   display: grid;
-  grid-template-columns: 60fr 40fr;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: repeat(2, 1fr);*/
   align-items: center;
 }
 
-.left-container-o-nas {
+.o-nas-1st-cell {
   padding: 9.6rem;
+  grid-column: 1 / span 2;
 }
 
-/*
-.o-nas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 4.8rem;
-  column-gap: 8rem;
+.o-nas-2nd-cell {
+  padding: 3.2rem;
+  grid-column: 3;
 }
-*/
+
+.o-nas-3rd-cell {
+  padding: 9.6rem;
+  grid-column: 2 / span 2;
+}
+
+.o-nas-4th-cell {
+  padding: 3.2rem;
+  grid-column: 1;
+  grid-row: 2;
+}
 
 .review-img {
   width: 6.4rem;
@@ -362,14 +371,34 @@
   margin-bottom: 1.2rem;
 }
 
+.colorcell {
+  margin: 9.6rem;
+  background-color: rgba(137, 120, 78);
+}
+
+.colorcell:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.o-nas-colorcell-bigtext {
+  font-size: 12rem;
+  line-height: 1.8;
+  margin: 3.2rem;
+  text-align: center;
+}
+
+.o-nas-colorcell-smalltext {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin: 3.2rem 0.9rem;
+  text-align: center;
+}
+
 .text-o-nas {
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
-}
-
-.right-container-o-nas {
-  padding: 1.6rem;
 }
 
 .photo-o-nas {
